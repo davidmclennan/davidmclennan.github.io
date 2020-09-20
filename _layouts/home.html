@@ -9,6 +9,15 @@ layout: default
 
     {{ content }}
 
+    {% assign sections = site.sections | sort: 'order' %}
+    {% for section in sections %}
+    {% if section.include != null %}
+    {% include {{ section.include }} %}
+    {% else %}
+    {% include sections/default.html %}
+    {% endif %}
+    {% endfor %}
+
     {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
@@ -30,5 +39,4 @@ layout: default
 
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
     {%- endif -%}
-
 </div>

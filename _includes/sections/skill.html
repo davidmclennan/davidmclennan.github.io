@@ -1,0 +1,34 @@
+{% capture border-shadow-style %}
+style="border: 4px solid rgba({{ section.color }}); box-shadow: 10px 10px rgba({{ section.color }}, .6);"
+{% endcapture %}
+<section id="{{ section.title | slugify }}" class="skill-section" {{ border-shadow-style }}>
+    <h1>{{ section.title }}</h1>
+    {{ section.content }}
+
+    <div class="skills">
+        {% assign skills = section.skills %}
+        {% for skill in skills %}
+        <div class="skill">{{ skill }}</div>
+        {% endfor %}
+    </div>
+</section>
+
+<!-- Move styles to proper place -->
+<style>
+    .skill-section {
+        padding: 8px;
+        margin-bottom: 24px;
+    }
+
+    .skills {
+        display: flex;
+    }
+
+    .skill {
+        background-color: #DDDDDD;
+        color: rgba(0, 0, 0, .6);
+        margin-right: 8px;
+        padding: 4px 8px;
+        font-weight: bold;
+    }
+</style>
