@@ -1,5 +1,5 @@
 ---
 title: My Skills
-order: 2
+order: 3
 include: my-skills.html
 ---

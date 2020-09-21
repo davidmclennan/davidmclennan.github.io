@@ -58,4 +58,5 @@ plugins:
 collections_dir: my_collections
 collections:
   - sections
+  - experiences
   - skills

@@ -1,0 +1,22 @@
+<section id="{{ include.object.title | slugify }}">
+    <h1>{{ include.object.title }}</h1>
+    {{ include.object.content }}
+
+    <div class="experiences-container">
+        {% assign experiences = site.experiences | sort: 'order' %}
+        {% for experience in experiences %}
+        {% if experience.include != null %}
+        {% include {{ experience.include }} object=experience %}
+        {% else %}
+        {% include default.html object=experience %}
+        {% endif %}
+        {% endfor %}
+    </div>
+</section>
+
+<style>
+    .experiences-container {
+        display: flex;
+        gap: 24px;
+    }
+</style>

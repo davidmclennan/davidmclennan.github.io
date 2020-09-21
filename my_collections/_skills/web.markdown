@@ -2,8 +2,8 @@
 title: Web Development
 order: 1
 color: 235, 42, 42
-include: skill.html
-skill-tags:
+include: card.html
+tags:
       - HTML
       - CSS
       - JavaScript

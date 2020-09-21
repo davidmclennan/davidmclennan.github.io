@@ -2,8 +2,8 @@
 title: Mobile Development
 order: 2
 color: 14, 193, 129
-include: skill.html
-skill-tags:
+include: card.html
+tags:
       - C#
       - XAML
       - MVVM

@@ -2,8 +2,8 @@
 title: Design
 order: 3
 color: 157, 33, 215
-include: skill.html
-skill-tags:
+include: card.html
+tags:
       - UI Design
       - UX Design
       - Figma

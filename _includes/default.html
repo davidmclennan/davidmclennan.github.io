@@ -1,4 +1,4 @@
-<section id="{{ section.title | slugify }}" class="content-section">
-    <h1>{{ section.title }}</h1>
-    {{ section.content }}
+<section id="{{ include.object.title | slugify }}">
+    <h1>{{ include.object.title }}</h1>
+    {{ include.object.content }}
 </section>
