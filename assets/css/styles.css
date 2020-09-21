@@ -1,0 +1,28 @@
+.experiences-container {
+    display: flex;
+    gap: 24px;
+}
+
+.card {
+    padding: 16px;
+    margin-bottom: 24px;
+    flex: 1;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-tag {
+    background-color: #DDDDDD;
+    color: rgba(0, 0, 0, .6);
+    margin-right: 8px;
+    margin-bottom: 8px;
+    padding: 4px 8px;
+    font-weight: bold;
+}
