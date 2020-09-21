@@ -1,5 +1,5 @@
 <section id="{{ include.object.title | slugify }}">
-    <h1>{{ include.object.title }}</h1>
+    <h1 class="list-title">{{ include.object.title }}</h1>
     {{ include.object.content }}
 
     {% assign skills = site.skills | sort: 'order' %}

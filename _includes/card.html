@@ -5,10 +5,12 @@ style="border: 4px solid rgba({{ include.object.color }}); box-shadow: 10px 10px
     <h1 class="card-title">{{ include.object.title }}</h1>
     {{ include.object.content }}
 
+    {% if include.object.tags.size > 0 %}
     <div class="card-tags">
         {% assign tags = include.object.tags %}
         {% for tag in tags %}
         <div class="card-tag">{{ tag }}</div>
         {% endfor %}
     </div>
+    {% endif %}
 </section>
