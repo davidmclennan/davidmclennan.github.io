@@ -1,0 +1,13 @@
+<section id="{{ section.title | slugify }}" class="content-section">
+    <h1>{{ section.title }}</h1>
+    {{ section.content }}
+
+    {% assign skills = site.skills | sort: 'order' %}
+    {% for skill in skills %}
+    {% if skill.include != null %}
+    {% include {{ skill.include }} %}
+    {% else %}
+    {% include default.html %}
+    {% endif %}
+    {% endfor %}
+</section>

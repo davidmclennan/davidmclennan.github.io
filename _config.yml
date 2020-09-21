@@ -55,5 +55,7 @@ plugins:
 #   - vendor/ruby/
 
 # My stuff
+collections_dir: my_collections
 collections:
   - sections
+  - skills
