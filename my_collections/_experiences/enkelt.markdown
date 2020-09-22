@@ -1,6 +1,6 @@
 ---
 title: Enkelt - Software Developer
-order: 1
+order: 2
 color: 0, 0, 0
 include: card.html
 ---
