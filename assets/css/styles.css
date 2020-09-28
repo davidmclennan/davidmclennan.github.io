@@ -9,6 +9,11 @@
     gap: 40px;
 }
 
+.hero-section {
+    display: flex;
+    gap: 64px
+}
+
 .list-title {
     font-weight: bold;
     text-align: center;
@@ -35,4 +40,23 @@
     color: rgba(0, 0, 0, .6);
     padding: 4px 8px;
     font-weight: bold;
+}
+
+/*
+Media Queries
+xs: 0,
+sm: 576px,
+md: 768px,
+lg: 992px,
+xl: 1200px
+*/
+
+@media (max-width: 768px) {
+    .hero-section {
+        flex-direction: column-reverse;
+    }
+
+    .hero-section > img {
+        margin: 0 auto;
+    }
 }
