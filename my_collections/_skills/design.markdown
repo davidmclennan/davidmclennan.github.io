@@ -8,4 +8,6 @@ tags:
       - UX Design
       - Figma
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ipsum arcu, blandit non accumsan at, tempus a velit. Integer egestas odio mauris, non vehicula felis pulvinar vitae. Maecenas vel libero nisl. Duis vitae nisl lacus. Pellentesque mollis ultricies est ac tristique. Vestibulum ornare sed enim a congue. Nunc at ultricies sem. Sed dapibus convallis fringilla.
+I have been working in UI and UX design using Figma for 3 years. I've worked closely with many different clients to bring their ideas to life, creating promotional material and developer design guides in the form of high fidelity interactive flows.
+
+A published article on my design work can be found [here.](https://www.agcc.co.uk/blog-article/user-experience-how-to-make-it-a-tool-of-your-trade)

@@ -12,4 +12,6 @@ tags:
       - C#
       - ASP.NET
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ipsum arcu, blandit non accumsan at, tempus a velit. Integer egestas odio mauris, non vehicula felis pulvinar vitae. Maecenas vel libero nisl. Duis vitae nisl lacus. Pellentesque mollis ultricies est ac tristique. Vestibulum ornare sed enim a congue. Nunc at ultricies sem. Sed dapibus convallis fringilla.
+I have full stack web development experience having worked with .NET/Vue.js front end and .NET back end.
+
+In my present position I was a key member in transitioning our team from using an ASP.NET classic front end to Vue.js, then from JavaScript to TypeScript.

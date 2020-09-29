@@ -10,4 +10,6 @@ tags:
       - Xamarin.Forms
       - Prism
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ipsum arcu, blandit non accumsan at, tempus a velit. Integer egestas odio mauris, non vehicula felis pulvinar vitae. Maecenas vel libero nisl. Duis vitae nisl lacus. Pellentesque mollis ultricies est ac tristique. Vestibulum ornare sed enim a congue. Nunc at ultricies sem. Sed dapibus convallis fringilla.
+I have had 4 years of .NET mobile development experience using Xamarin.Forms. Through this technology I have delivered many different cross-platform Android and iOS apps to many different clients.
+
+I have experience working with vanilla Xamarin and with MVVM frameworks, the Prism framework being my most used and preferred way of working with Xamarin.
