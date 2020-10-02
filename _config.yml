@@ -19,13 +19,14 @@
 # in the templates via {{ site.myvariable }}.
 
 title: David McLennan
-email: your-email@example.com
+author: David McLennan
+email: dmclennan92@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   My Portfolio
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  davidmclennan
+linkedin_username: david-mclennan-79b6b6a7
 
 # Build settings
 theme: minima
