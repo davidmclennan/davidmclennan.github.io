@@ -2,12 +2,14 @@
     <h1 class="list-title">{{ include.object.title }}</h1>
     {{ include.object.content }}
 
-    {% assign skills = site.skills | sort: 'order' %}
-    {% for skill in skills %}
-    {% if skill.include != null %}
-    {% include {{ skill.include }} object=skill %}
-    {% else %}
-    {% include default.html object=skill %}
-    {% endif %}
-    {% endfor %}
+    <div class="skills-container">
+        {% assign skills = site.skills | sort: 'order' %}
+        {% for skill in skills %}
+        {% if skill.include != null %}
+        {% include {{ skill.include }} object=skill %}
+        {% else %}
+        {% include default.html object=skill %}
+        {% endif %}
+        {% endfor %}
+    </div>
 </section>
