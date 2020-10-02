@@ -51,6 +51,11 @@
     color: #828282;
 }
 
+.contact-form {
+    display: block;
+    margin: 0 auto;
+}
+
 /*
 Media Queries
 xs: 0,
