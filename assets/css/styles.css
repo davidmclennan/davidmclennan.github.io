@@ -1,7 +1,7 @@
 .home {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 80px;
 }
 
 .hero-section {
@@ -17,12 +17,14 @@
 .skills-container {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 32px;
 }
 
 .list-title {
     font-weight: bold;
     text-align: center;
+    margin-bottom: 24px;
+    font-size: 28px;
 }
 
 .card {
