@@ -73,6 +73,10 @@ xl: 1200px
 */
 
 @media (max-width: 768px) {
+    .home {
+        gap: 64px;
+    }
+
     .hero-section {
         flex-direction: column-reverse;
     }
@@ -83,5 +87,9 @@ xl: 1200px
 
     .experiences-container {
         flex-direction: column;
+    }
+
+    .list-title {
+        margin-bottom: 16px;
     }
 }
