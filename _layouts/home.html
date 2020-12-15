@@ -2,13 +2,15 @@
 layout: default
 ---
 
-<div class="home">
-    {% assign sections = site.sections | sort: 'order' %}
-    {% for section in sections %}
-    {% if section.include != null %}
-    {% include {{ section.include }} object=section %}
-    {% else %}
-    {% include default.html object=section %}
-    {% endif %}
-    {% endfor %}
+<div class="home-wrapper">
+    <div class="home">
+        {% assign sections = site.sections | sort: 'order' %}
+        {% for section in sections %}
+        {% if section.include != null %}
+        {% include {{ section.include }} object=section %}
+        {% else %}
+        {% include default.html object=section %}
+        {% endif %}
+        {% endfor %}
+    </div>
 </div>

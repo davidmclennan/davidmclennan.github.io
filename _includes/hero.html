@@ -1,10 +1,12 @@
 {% capture shadow-style %}
 style="box-shadow: 10px 10px rgba({{ include.object.color }});"
 {% endcapture %}
-<section id="{{ include.object.title | slugify }}" class="hero-section">
-    <div>
-        <h1>{{ include.object.title }}</h1>
-        {{ include.object.content }}
+<section id="{{ include.object.title | slugify }}">
+    <div class="hero-container">
+        <div>
+            <h1>{{ include.object.title }}</h1>
+            {{ include.object.content }}
+        </div>
+        <img src="{{ include.object.image }}" alt="{{ include.object.image-alt }}" height="300" {{ shadow-style }}>
     </div>
-    <img src="{{ include.object.image }}" alt="{{ include.object.image-alt }}" height="300" {{ shadow-style }}>
 </section>

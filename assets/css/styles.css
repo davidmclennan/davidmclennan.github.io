@@ -1,23 +1,43 @@
+.home-wrapper {
+    overflow: hidden;
+}
+
 .home {
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    margin: -40px;
 }
 
-.hero-section {
+.home > section {
+    margin: 40px;
+}
+
+.hero-container {
     display: flex;
-    gap: 64px
+    margin: -32px;
+}
+
+.hero-container > * {
+    margin: 32px;
 }
 
 .experiences-container {
     display: flex;
-    gap: 24px;
+    margin: -12px;
+}
+
+.experiences-container > section {
+    margin: 12px;
 }
 
 .skills-container {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    margin: -16px;
+}
+
+.skills-container > section {
+    margin: 16px;
 }
 
 .list-title {
@@ -39,7 +59,7 @@
 .card-tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
+    margin: -4px;
 }
 
 .card-tag {
@@ -47,6 +67,7 @@
     color: rgba(0, 0, 0, .6);
     padding: 4px 8px;
     font-weight: bold;
+    margin: 4px;
 }
 
 .site-footer h2 {
@@ -74,15 +95,19 @@ xl: 1200px
 
 @media (max-width: 768px) {
     .home {
-        gap: 64px;
+        margin: -32px;
     }
 
-    .hero-section {
+    .home > section {
+        margin: 32px;
+    }
+
+    .hero-container {
         flex-direction: column-reverse;
     }
 
-    .hero-section > img {
-        margin: 0 auto;
+    .hero-container > img {
+        margin: 32px auto;
     }
 
     .experiences-container {
