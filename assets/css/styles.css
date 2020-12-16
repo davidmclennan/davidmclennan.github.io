@@ -1,43 +1,39 @@
-.home-wrapper {
-    overflow: hidden;
-}
-
 .home {
     display: flex;
     flex-direction: column;
-    margin: -40px;
+    margin: -40px 0;
 }
 
 .home > section {
-    margin: 40px;
+    margin: 40px 0;
 }
 
 .hero-container {
     display: flex;
-    margin: -32px;
+    margin: 0 0 -64px -64px;
 }
 
 .hero-container > * {
-    margin: 32px;
+    margin: 0 0 64px 64px;
 }
 
 .experiences-container {
     display: flex;
-    margin: -12px;
+    margin: 0 0 -24px -24px;
 }
 
 .experiences-container > section {
-    margin: 12px;
+    margin: 0 0 24px 24px;
 }
 
 .skills-container {
     display: flex;
     flex-direction: column;
-    margin: -16px;
+    margin: -16px 0;
 }
 
 .skills-container > section {
-    margin: 16px;
+    margin: 16px 0;
 }
 
 .list-title {
@@ -95,11 +91,11 @@ xl: 1200px
 
 @media (max-width: 768px) {
     .home {
-        margin: -32px;
+        margin: -32px 0;
     }
 
     .home > section {
-        margin: 32px;
+        margin: 32px 0;
     }
 
     .hero-container {
@@ -107,7 +103,8 @@ xl: 1200px
     }
 
     .hero-container > img {
-        margin: 32px auto;
+        /* margin: 64px auto; */
+        margin: 0 auto 64px auto;
     }
 
     .experiences-container {
