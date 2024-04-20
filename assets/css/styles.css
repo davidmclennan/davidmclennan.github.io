@@ -4,7 +4,7 @@
     margin: -40px 0;
 }
 
-.home > section {
+.home>section {
     margin: 40px 0;
 }
 
@@ -13,32 +13,27 @@
     margin: 0 0 -64px -64px;
 }
 
-.hero-container > * {
+.hero-container>* {
     margin: 0 0 64px 64px;
 }
 
 .experiences-container {
-    display: flex;
     margin: 0 0 -24px -24px;
 }
 
-.experiences-container > section {
+.experiences-container>section {
     margin: 0 0 24px 24px;
 }
 
 .skills-container {
     display: flex;
     flex-direction: column;
-    margin: -16px 0;
-}
-
-.skills-container > section {
-    margin: 16px 0;
+    margin-bottom: 40px;
+    gap: 32px;
 }
 
 .list-title {
     font-weight: bold;
-    text-align: center;
     margin-bottom: 24px;
     font-size: 28px;
 }
@@ -94,7 +89,7 @@ xl: 1200px
         margin: -32px 0;
     }
 
-    .home > section {
+    .home>section {
         margin: 32px 0;
     }
 
@@ -102,7 +97,7 @@ xl: 1200px
         flex-direction: column-reverse;
     }
 
-    .hero-container > img {
+    .hero-container>img {
         /* margin: 64px auto; */
         margin: 0 auto 64px auto;
     }

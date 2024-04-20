@@ -1,7 +1,7 @@
 ---
 title: Design
-order: 3
-color: 157, 33, 215
+order: 2
+color: 23, 131, 231
 include: card.html
 tags:
       - UI Design
