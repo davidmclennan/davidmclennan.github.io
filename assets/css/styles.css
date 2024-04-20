@@ -125,6 +125,17 @@ lg: 992px,
 xl: 1200px
 */
 
+@media screen and (max-width: 600px) {
+    .site-nav {
+        background-color: var(--elevation-1);
+        border: var(--border-highlight) 1px solid;
+    }
+
+    .site-nav .menu-icon>svg {
+        fill: var(--accent-blue);
+    }
+}
+
 @media (max-width: 768px) {
     .home {
         gap: 48px;
