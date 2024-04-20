@@ -2,7 +2,7 @@
     <h1 class="list-title">{{ include.object.title }}</h1>
     {{ include.object.content }}
 
-    <div class="experiences-container">
+    <div class="card-container">
         {% assign experiences = site.experiences | sort: 'order' %}
         {% for experience in experiences %}
         {% if experience.include != null %}

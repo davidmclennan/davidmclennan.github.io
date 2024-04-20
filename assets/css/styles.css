@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Pacifico&display=swap');
 
 :root {
-    --background: #050E2D;
+    --background: #0A122E;
     --elevation-1: #0E1633;
     --elevation-1-shadow: 0 8px 4px #050B23;
     --text-body: #CDCFD5;
     --border-highlight: #232B49;
     --accent-blue: #1783E7;
-    --accent-yellow: #D0C34B;
+    --accent-yellow: #BCB044;
 }
 
 body {
@@ -30,6 +30,10 @@ body {
     color: var(--text-body);
 }
 
+.page-content {
+    padding: 64px 0;
+}
+
 .home {
     display: flex;
     flex-direction: column;
@@ -46,19 +50,10 @@ body {
     color: var(--accent-blue);
 }
 
-.experiences-container {
-    margin: 0 0 -24px -24px;
-}
-
-.experiences-container>section {
-    margin: 0 0 24px 24px;
-}
-
-.skills-container {
+.card-container {
     display: flex;
     flex-direction: column;
-    margin-bottom: 40px;
-    gap: 32px;
+    gap: 24px;
 }
 
 .list-title {
@@ -107,7 +102,7 @@ body {
 }
 
 .footer-body {
-    font-size: 15px;
+    font-size: 16px;
     color: #828282;
 }
 
@@ -137,6 +132,10 @@ xl: 1200px
 }
 
 @media (max-width: 768px) {
+    .page-content {
+        padding: 48px 0;
+    }
+
     .home {
         gap: 48px;
     }
@@ -145,7 +144,7 @@ xl: 1200px
         margin-bottom: 16px;
     }
 
-    .skills-container {
-        gap: 24px;
+    .card-container {
+        gap: 20px;
     }
 }
