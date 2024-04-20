@@ -19,7 +19,7 @@ body {
 .site-header {
     background-color: var(--elevation-1);
     border: none;
-    box-shadow: var(--elevation-1-shadow);
+    border-bottom: var(--border-highlight) 1px solid;
 }
 
 .site-title {
@@ -33,11 +33,7 @@ body {
 .home {
     display: flex;
     flex-direction: column;
-    margin: -40px 0;
-}
-
-.home>section {
-    margin: 40px 0;
+    gap: 64px;
 }
 
 .hero-title {
@@ -131,27 +127,14 @@ xl: 1200px
 
 @media (max-width: 768px) {
     .home {
-        margin: -32px 0;
-    }
-
-    .home>section {
-        margin: 32px 0;
-    }
-
-    .hero-container {
-        flex-direction: column-reverse;
-    }
-
-    .hero-container>img {
-        /* margin: 64px auto; */
-        margin: 0 auto 64px auto;
-    }
-
-    .experiences-container {
-        flex-direction: column;
+        gap: 48px;
     }
 
     .list-title {
         margin-bottom: 16px;
+    }
+
+    .skills-container {
+        gap: 24px;
     }
 }
