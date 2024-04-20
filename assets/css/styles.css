@@ -1,3 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Pacifico&display=swap');
+
+:root {
+    --background: #050E2D;
+    --elevation-1: #0E1633;
+    --elevation-1-shadow: 0 8px 4px #050B23;
+    --text-body: #CDCFD5;
+    --border-highlight: #232B49;
+    --accent-blue: #1783E7;
+    --accent-yellow: #D0C34B;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text-body);
+}
+
+.site-header {
+    background-color: var(--elevation-1);
+    border: none;
+    box-shadow: var(--elevation-1-shadow);
+}
+
+.site-title {
+    color: var(--text-body);
+}
+
+.site-nav .page-link {
+    color: var(--text-body);
+}
+
 .home {
     display: flex;
     flex-direction: column;
@@ -8,13 +40,14 @@
     margin: 40px 0;
 }
 
-.hero-container {
-    display: flex;
-    margin: 0 0 -64px -64px;
+.hero-title {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
-.hero-container>* {
-    margin: 0 0 64px 64px;
+.name-text {
+    color: var(--accent-blue);
 }
 
 .experiences-container {
@@ -33,6 +66,9 @@
 }
 
 .list-title {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
     font-weight: bold;
     margin-bottom: 24px;
     font-size: 28px;
@@ -41,6 +77,10 @@
 .card {
     padding: 12px;
     flex: 1;
+    background-color: var(--elevation-1);
+    border: var(--border-highlight) 1px solid;
+    border-radius: 4px;
+    box-shadow: var(--elevation-1-shadow);
 }
 
 .card-title {
@@ -54,11 +94,16 @@
 }
 
 .card-tag {
-    background-color: #DDDDDD;
-    color: rgba(0, 0, 0, .6);
+    background-color: var(--accent-yellow);
+    color: #2D2D2D;
     padding: 4px 8px;
     font-weight: bold;
     margin: 4px;
+    border-radius: 4px;
+}
+
+.site-footer {
+    border: none;
 }
 
 .site-footer h2 {

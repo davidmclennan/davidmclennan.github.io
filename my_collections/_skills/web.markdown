@@ -1,7 +1,6 @@
 ---
 title: Web Development
 order: 0
-color: 23, 131, 231
 include: card.html
 tags:
       - HTML
@@ -11,6 +10,7 @@ tags:
       - Vue.js
       - C#
       - ASP.NET
+      - Blazor
 ---
 I have full stack web development experience having worked with .NET/Vue.js front end and .NET back end.
 

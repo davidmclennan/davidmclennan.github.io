@@ -1,7 +1,6 @@
 ---
 title: Mobile Development
 order: 1
-color: 23, 131, 231
 include: card.html
 tags:
       - C#

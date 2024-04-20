@@ -1,5 +1,4 @@
 <header class="site-header" role="banner">
-
     <div class="wrapper">
         {%- assign default_paths = site.pages | map: "path" -%}
         {%- assign page_paths = site.header_pages | default: default_paths -%}
@@ -18,7 +17,7 @@
             </label>
 
             <div class="trigger">
-                <a class="page-link" rel="author" href="{{ "/" | relative_url }}">Home</a>
+                <a class="page-link" rel="author" href="{{ " /" | relative_url }}">Home</a>
                 {%- for path in page_paths -%}
                 {%- assign my_page = site.pages | where: "path", path | first -%}
                 {%- if my_page.title -%}

@@ -1,6 +1,3 @@
-{% capture border-shadow-style %}
-style="border: 4px solid rgba({{ include.object.color }}); box-shadow: 10px 10px rgba({{ include.object.color }}, .6);"
-{% endcapture %}
 <section id="{{ include.object.title | slugify }}" class="card" {{ border-shadow-style }}>
     <h1 class="card-title">{{ include.object.title }}</h1>
     {{ include.object.content }}
