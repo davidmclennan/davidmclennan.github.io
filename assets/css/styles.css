@@ -81,16 +81,17 @@ body {
 .card-tags {
     display: flex;
     flex-wrap: wrap;
-    margin: -4px;
+    margin: 32px -4px -4px -4px;
 }
 
 .card-tag {
     background-color: var(--accent-yellow);
-    color: #2D2D2D;
+    color: #000000;
     padding: 4px 8px;
     font-weight: bold;
     margin: 4px;
     border-radius: 4px;
+    font-size: 12px;
 }
 
 .site-footer {
@@ -109,6 +110,10 @@ body {
 .contact-form {
     display: block;
     margin: 0 auto;
+}
+
+.social-media-list a {
+    color: #828282;
 }
 
 /*
