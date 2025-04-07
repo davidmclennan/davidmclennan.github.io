@@ -28,6 +28,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  davidmclennan
 linkedin_username: david-mclennan-79b6b6a7
 youtube_username: "@davidmclennan9545"
+bluesky_username: david-mclennan.bsky.social
 
 # Build settings
 theme: minima
