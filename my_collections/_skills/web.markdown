@@ -7,6 +7,7 @@ tags:
       - CSS
       - JavaScript
       - TypeScript
+      - React
       - Vue.js
       - C#
       - ASP.NET
