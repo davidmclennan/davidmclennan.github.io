@@ -116,6 +116,11 @@ body {
     color: #828282;
 }
 
+#my-experience .card>h1,
+p {
+    margin-bottom: 0;
+}
+
 /*
 Media Queries
 xs: 0,
