@@ -13,6 +13,6 @@ tags:
       - ASP.NET
       - Blazor
 ---
-I have full stack web development experience having worked with .NET/Vue.js front end and .NET back end.
+I have full stack web development experience having worked with .NET/Vue.js/React front end and .NET back end.
 
-In my present position I was a key member in transitioning our team from using an ASP.NET classic front end to Vue.js, then from JavaScript to TypeScript.
+In my web development positions I have been seen as a front end specialist within the team, helping to transition to modern standards and frameworks.
