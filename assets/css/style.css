@@ -36,6 +36,13 @@ p {
     blink-caret 0.75s step-end infinite;
 }
 
+.experience-chip {
+  font-size: 1.5rem;
+  background-color: black;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
 /* The typing effect */
 @keyframes typing {
   from {
