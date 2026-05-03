@@ -1,0 +1,29 @@
+html {
+  background-color: #171717;
+  color: #96de5f;
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.main-layout {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 3rem 0;
+  gap: 3rem;
+}
+
+.name-header {
+  font-family: "Workbench", sans-serif;
+}
