@@ -43,6 +43,18 @@ p {
   border-radius: 5px;
 }
 
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(200px, auto);
+  gap: 1rem;
+}
+
+.project-card {
+  background-color: #96de5f;
+  border-radius: 10px;
+}
+
 /* The typing effect */
 @keyframes typing {
   from {
