@@ -11,6 +11,11 @@ h2 {
   font-weight: 400;
 }
 
+h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
 p {
   font-size: 1.5rem;
 }
@@ -34,6 +39,26 @@ p {
   animation:
     typing 3.5s steps(40, end),
     blink-caret 0.75s step-end infinite;
+}
+
+.experience-categories {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.experience-category {
+  border: #96de5f 2px dashed;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.experience-category-title {
+  transform: translateY(-1.75rem);
+  margin-bottom: -1.75rem;
+  background-color: #171717;
+  padding: 0 0.5rem;
+  width: fit-content;
 }
 
 .experience-chip {
