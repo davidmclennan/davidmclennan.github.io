@@ -55,15 +55,21 @@ p {
 .experience-category {
   border: var(--primary-color) 2px dashed;
   border-radius: 5px;
-  padding: 0.5rem;
+  padding: 1rem;
 }
 
 .experience-category-title {
-  transform: translateY(-1.75rem);
+  transform: translateY(-2.25rem);
   margin-bottom: -1.75rem;
   background-color: var(--background-color);
   padding: 0 0.5rem;
   width: fit-content;
+}
+
+.experience-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
 
 .experience-chip {
