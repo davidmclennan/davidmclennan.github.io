@@ -1,6 +1,11 @@
+:root {
+  --primary-color: #96de5f;
+  --background-color: #171717;
+}
+
 html {
-  background-color: #171717;
-  color: #96de5f;
+  background-color: var(--background-color);
+  color: var(--primary-color);
   font-family: "Jersey 10", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -32,7 +37,7 @@ p {
 .name-header {
   font-family: "Workbench", sans-serif;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: 0.15em solid #96de5f; /* The typwriter cursor */
+  border-right: 0.15em solid var(--primary-color); /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: 0.15em; /* Adjust as needed */
@@ -48,7 +53,7 @@ p {
 }
 
 .experience-category {
-  border: #96de5f 2px dashed;
+  border: var(--primary-color) 2px dashed;
   border-radius: 5px;
   padding: 0.5rem;
 }
@@ -56,16 +61,17 @@ p {
 .experience-category-title {
   transform: translateY(-1.75rem);
   margin-bottom: -1.75rem;
-  background-color: #171717;
+  background-color: var(--background-color);
   padding: 0 0.5rem;
   width: fit-content;
 }
 
 .experience-chip {
   font-size: 1.5rem;
-  background-color: black;
+  background-color: var(--primary-color);
   padding: 0.5rem;
   border-radius: 5px;
+  color: var(--background-color);
 }
 
 .projects-grid {
@@ -76,7 +82,7 @@ p {
 }
 
 .project-card {
-  background-color: #96de5f;
+  background-color: var(--primary-color);
   border-radius: 10px;
 }
 
@@ -93,7 +99,7 @@ p {
   gap: 1rem;
   font-size: 1.5rem;
   align-items: center;
-  color: #96de5f;
+  color: var(--primary-color);
 }
 
 /* The typing effect */
@@ -113,6 +119,6 @@ p {
     border-color: transparent;
   }
   50% {
-    border-color: #96de5f;
+    border-color: var(--primary-color);
   }
 }
