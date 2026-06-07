@@ -88,8 +88,8 @@ p {
 }
 
 .project-card {
-  background-color: var(--primary-color);
   border-radius: 10px;
+  overflow: hidden;
 }
 
 .socials-list {
